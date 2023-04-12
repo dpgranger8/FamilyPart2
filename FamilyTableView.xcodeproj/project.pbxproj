@@ -16,6 +16,9 @@
 		7EA6D57629D47C42008D8501 /* FamilyTableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA6D57529D47C42008D8501 /* FamilyTableViewTests.swift */; };
 		7EA6D58029D47C42008D8501 /* FamilyTableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA6D57F29D47C42008D8501 /* FamilyTableViewUITests.swift */; };
 		7EA6D58229D47C42008D8501 /* FamilyTableViewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA6D58129D47C42008D8501 /* FamilyTableViewUITestsLaunchTests.swift */; };
+		7EA6D58F29D495A2008D8501 /* FamilyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA6D58E29D495A2008D8501 /* FamilyTableViewController.swift */; };
+		7EA6D59129D497BC008D8501 /* FamilyDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA6D59029D497BC008D8501 /* FamilyDetailViewController.swift */; };
+		7EA6D59329D498AF008D8501 /* FamilyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA6D59229D498AF008D8501 /* FamilyModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		7EA6D57B29D47C42008D8501 /* FamilyTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FamilyTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EA6D57F29D47C42008D8501 /* FamilyTableViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyTableViewUITests.swift; sourceTree = "<group>"; };
 		7EA6D58129D47C42008D8501 /* FamilyTableViewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyTableViewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7EA6D58E29D495A2008D8501 /* FamilyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyTableViewController.swift; sourceTree = "<group>"; };
+		7EA6D59029D497BC008D8501 /* FamilyDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyDetailViewController.swift; sourceTree = "<group>"; };
+		7EA6D59229D498AF008D8501 /* FamilyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,9 @@
 				7EA6D56029D47C40008D8501 /* SceneDelegate.swift */,
 				7EA6D56229D47C40008D8501 /* ViewController.swift */,
 				7EA6D56429D47C40008D8501 /* Main.storyboard */,
+				7EA6D59229D498AF008D8501 /* FamilyModel.swift */,
+				7EA6D59029D497BC008D8501 /* FamilyDetailViewController.swift */,
+				7EA6D58E29D495A2008D8501 /* FamilyTableViewController.swift */,
 				7EA6D56729D47C42008D8501 /* Assets.xcassets */,
 				7EA6D56929D47C42008D8501 /* LaunchScreen.storyboard */,
 				7EA6D56C29D47C42008D8501 /* Info.plist */,
@@ -260,7 +269,10 @@
 			files = (
 				7EA6D56329D47C40008D8501 /* ViewController.swift in Sources */,
 				7EA6D55F29D47C40008D8501 /* AppDelegate.swift in Sources */,
+				7EA6D59129D497BC008D8501 /* FamilyDetailViewController.swift in Sources */,
+				7EA6D59329D498AF008D8501 /* FamilyModel.swift in Sources */,
 				7EA6D56129D47C40008D8501 /* SceneDelegate.swift in Sources */,
+				7EA6D58F29D495A2008D8501 /* FamilyTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
